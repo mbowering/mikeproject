@@ -1,0 +1,100 @@
+/*
+    Student Name: Mike
+	File Name: styles.css
+	Current Date: 3/8/21
+*/
+
+/* CSS reset */
+body, header, nav, main, footer, img, h1, h3, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+font-family: Lucida Handwriting
+}
+
+/* Style rule for body and images */
+body {
+    background-color: #ffb3ff;
+	align: center;
+}
+
+img {
+    max-width: 60%;
+    display: block;
+align:center:
+}
+
+/* Style rules for header content */
+header h1 {
+    text-align: center;
+    color: #fff;
+    font-family: Lucida Handwriting
+    padding: 5%;
+    font-size: 3em;
+}
+
+/* Style rules for navigation area */
+nav {
+	text-align: center;
+    background-color: #ffe6ff;
+    border-bottom: 1px solid #375f1b;
+	font-size: 1.35em;
+}
+
+nav ul {
+    text-align: center;
+	font-size: 0.85em;
+.columns {
+	column-count: 2;
+	column-width:250px;
+	}
+}
+
+nav li {
+	text-align: center;
+    font-size: 1em;
+    font-family: Lucida Handwriting
+    font-weight: bold;
+    padding: 3%;
+	font-size: 1.85em;
+}
+
+nav li a {
+	text-align: center;
+    display: block;
+    color: #ffe6ff;
+    text-decoration: none;
+}
+
+/* Style rules for main content */
+main {
+	
+border: 2px Solid black;
+  margin: 50px;
+padding: 30px;
+text-align: center
+    padding: 30px;
+    background-color: #ffe6ff;
+    font-family: Georgia
+
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+main p {
+	text-align: center
+    font-size: 1.25em;
+
+}
+
+/* Style rules for footer content */
+footer {
+    text-align: center;
+    font-size: 0.85em;
+    color: #fff;
+    padding: 1% 0;
+}
